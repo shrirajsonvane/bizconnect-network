@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    padding: 1rem 0;
+    color: white;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 3rem 2rem;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1e3a8a;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 6px;
+    border: 2px solid #e5e7eb;
+}
+
+button {
+    width: 100%;
+    padding: 0.9rem;
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.error {
+    color: #dc2626;
+    font-size: 0.85rem;
+    display: none;
+}
+
+.success-message {
+    display: none;
+    background: #dcfce7;
+    border: 2px solid #22c55e;
+    color: #166534;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.show {
+    display: block;
+}

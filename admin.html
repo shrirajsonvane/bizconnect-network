@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BizConnect Admin Dashboard</title>
+    <link rel="stylesheet" href="admin-styles.css">
+</head>
+
+<body>
+
+<!-- Admin Login -->
+<div class="login" id="loginBox">
+    <h1>Admin Login</h1>
+    <input type="password" id="adminPass" placeholder="Enter admin password">
+    <button onclick="login()">Login</button>
+    <p style="margin-top:10px;color:#666;">
+        Demo password: <strong>bizconnect@2026</strong>
+    </p>
+</div>
+
+<!-- Admin Dashboard -->
+<div class="dashboard hidden" id="dashboard">
+    <h1>Admin Dashboard</h1>
+    <button class="logout" onclick="logout()">Logout</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Business</th>
+                <th>Owner</th>
+                <th>City</th>
+                <th>Registered On</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+</div>
+
+<script src="admin-script.js"></script>
+
+</body>
+</html>
